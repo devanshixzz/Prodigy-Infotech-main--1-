@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    font: 2.0rem "Cinzel", sans-serif;
+    opacity: 0.9;
+    background: url("file:///C:/Users/Dell/Downloads/Prodigy-Infotech-main%20(1)/Prodigy-Infotech-main/PRODIGY_WD_03/images/scene") no-repeat center center;
+    background-size: cover;
+}
+    
+
+section {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7); /* Slightly less opaque */
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Darker shadow */
+    background: #fff786; /* Set background to black */
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #444; /* Darker shadow */
+    border: 2px solid #444; /* Darker border */
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 80px;
+    transition: background-color 0.3s ease;
+    color: #fff; /* Text color for contrast */
+    
+}
+
+.cell:hover {
+    background-color: #222; /* Darker hover background */
+}
+
+.game--title {
+    font-size: 4rem; /* Change font size */
+    font-family: 'Cinzel', serif; /* Change font family */
+    color: #0b092b; /* Light color for title text */
+    margin: 10px auto;
+}
+
+.game--status-container {
+    margin: 10px auto;
+}
+
+.game--status {
+    font-size: 1.5rem; /* Change font size */
+    font-family: 'Exo 2', sans-serif; /* Change font family */
+    color: #fff; /* Light color for status text */
+    margin: 20px auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 5px;
+    width: fit-content;
+    margin: 10px auto;
+    background-color: rgba(51, 51, 51, 0.8); /* Slightly less opaque */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.game--restart {
+    background-color: #0f0e1b;
+    width: 200px;
+    height: 50px;
+    font-size: 1.5rem;
+    color: #fff;
+    box-shadow: 2px 2px 2px 2px #080808;
+    border: 2px solid #0f0e1b;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.game--restart:hover {
+    background-color: #383737;
+}
+
+/* Simple Footer styles */
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.footer_social {
+    color: #ffffff; /* Light color for social icons */
+    font-size: 2rem;
+    transition: color 0.3s;
+}
+
+.footer_social:hover {
+    color: #8610e6; /* Change to the color you prefer */
+}
